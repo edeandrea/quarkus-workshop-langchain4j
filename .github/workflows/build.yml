@@ -4,6 +4,7 @@ env:
   JVM_VERSION: '21'
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
